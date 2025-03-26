@@ -1,0 +1,25 @@
+git clone https://github.com/WongKinYiu/yolov7.git  
+cd yolov7  
+python -m venv venv  
+venv\Scripts\activate  
+pip install -r requirements.txt  
+python train.py --img 640 --batch 16 --epochs 50 --data path/to/your.yaml --weights yolov7.pt  
+python detect.py --weights path/to/your/weights.pt --source path/to/your/images  
+---------------------------------------------------
+!git clone https://github.com/WongKinYiu/yolov7.git  
+%cd yolov7  
+!pip install -r requirements.txt  
+....
+from google.colab import drive  
+drive.mount('/content/drive')  
+....
+%cd yolov7  
+....
+pip uninstall wandb
+....
+!python train.py --img 640 --batch 16 --epochs 50 --data /content/drive/MyDrive/ColabNotebooks/data.yaml --cfg cfg/training/yolov7.yaml --weights yolov7.pt 
+--------------------------------------------------
+from IPython.display import Image
+Image('')
+....
+!python detect.py --weight /content/yolov7/runs/train/exp2/weights/best.pt --conf 0.1 --source /content/drive/MyDrive/ColabNotebooks/test/images
