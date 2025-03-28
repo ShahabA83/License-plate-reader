@@ -21,6 +21,6 @@ The final program is located in a Python file called `Final Code`<br>
 
 
 <p align="center">
-  <img src="https://github.com/ShahabA83/License-plate-reader/blob/main/Dataset/Output%20samples%20taken/detected_plate5.png?raw=true" width="400" height="500"/>
+  <img src="https://github.com/ShahabA83/License-plate-reader/blob/main/Dataset/Output%20samples%20taken/detected_plate5.png?raw=true" width="400" height="300"/>
   <img src="https://github.com/ShahabA83/License-plate-reader/blob/main/Dataset/Output%20samples%20taken/detected_plate10.png?raw=true" width="400" height="300"/>
 </p>
